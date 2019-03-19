@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>无标题文档</title>
+    <include file="Common:common"/>
+    <load href="__PUBLIC__/css/common/rightCommon.css"/>
+    <script>
+        $(document).ready(function (e) {
+
+            getEditData(function (jdata) {
+                // console.log(jdata);
+                var help_movie = '/Uploads/Manage/'+jdata.help_movie;
+
+                sourceDom = $("<source src=\""+ help_movie +"\" id='help_movie' type='video/mp4'>");
+                $(".video-box").append(sourceDom);
+                $(".video-box").show();
+
+                if(jdata){
+                    $('#saveButton').attr('disabled',false);
+                }
+            });
+
+
+        });
+    </script>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+    <button class="close fixed" style="margin-top: 4px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><i class="fa fa-plus" aria-hidden="true"></i> <span id="changeTitle">编辑</span>帮助视频</a>
+    </div>
+</nav>
+
+<div class="add-box">
+    <form class="addForm" enctype="multipart/form-data" id="form1" name="form1" method="post"
+          action="__APP__/table/help">
+        <input name="id" type="hidden" id="id" value="<?php echo $helpList['id']?>"/>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+
+            <tr>
+                <td align="center">视频名称</td>
+                <td><input type="text" name="help_title" id="help_title" class="form-control" datatype="*"
+                           nullmsg="请输入视频名称" placeholder="请输入视频名称"/></td>
+            </tr>
+
+            <tr>
+                <td align="center">视频</td>
+                <td><input type="file" name="help_movie_detail" id="help_movie_detail" class="form-control" datatype="*"
+                           nullmsg="请输入视频名称" placeholder="请输入视频名称"/></td>
+            </tr>
+
+            <if condition="$helpList['id']">
+                <tr>
+                    <td align="center">视频详情</td>
+                    <td>
+                        <video class="video-box" width="320" height="240" controls>
+                            <source src="" id="help_movie" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+
+            </if>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <button class="btn btn-success ajax-post" disabled type="button" id="saveButton"
+                            target-form="form-horizontal"><i class="fa fa-check" aria-hidden="true" ></i> 添加
+                    </button>
+                    <button type="button" class="btn btn-default" id="cancelButton"><i class="fa fa-times"
+                                                                                       aria-hidden="true"></i> 取消
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
+<script>
+
+    $('#saveButton').click(function () {
+        var help_title = $('#help_title').val();
+        var id = $('#id').val();
+        var formData = new FormData;
+        formData.append('file', $('#help_movie_detail')[0].files[0]);
+        formData.append('help_title', help_title);
+        formData.append('id', id);
+        $.ajax({
+            type: "POST",
+            url: APP+'/Help/addHelpData',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (res) {
+                // console.log(res);
+                if (res.code == 200) {
+                    updateAlert( '上传页面成功，即将自动跳转~','alert-success');
+                    setTimeout(function(){
+                        location.href= APP+'/Help/helpList';
+                    },1500);
+                }
+            },
+            error: function (err) {
+                console.log(err)
+            }
+        });
+    });
+
+    $('#help_title').mouseleave(function () {
+        is_click();
+    });
+
+    $('#help_movie_detail').mouseleave(function () {
+        is_click();
+    });
+
+
+    function is_click() {
+        if($('#help_movie_detail')[0].files.length != 0 && $('#help_title').val()){
+            $('#saveButton').attr('disabled',false);
+        }
+    }
+
+
+
+    /**顶部警告栏*/
+    var content = $('#add-box');
+    var top_alert = $('#top-alert');
+    top_alert.find('.close').on('click', function () {
+        top_alert.removeClass('block').slideUp(200);
+    });
+
+    window.updateAlert = function (text,c) {
+        text = text||'default';
+        c = c||false;
+        if ( text!='default' ) {
+            top_alert.find('.alert-content').text(text);
+            if (top_alert.hasClass('block')) {
+            } else {
+                top_alert.addClass('block').slideDown(200);
+            }
+        } else {
+            if (top_alert.hasClass('block')) {
+                top_alert.removeClass('block').slideUp(200);
+            }
+        }
+        if ( c!=false ) {
+            top_alert.removeClass('alert-error alert-warn alert-info alert-success').addClass(c);
+        }
+    };
+</script>

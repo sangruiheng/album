@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Common:common" />
+<load href="__PUBLIC__/css/common/rightCommon.css" />
+<script>
+$(document).ready(function(e) {
+	getEditData();
+});
+</script>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+    <button class="close fixed" style="margin-top: 4px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#"><i class="fa fa-plus" aria-hidden="true"></i> <span id="changeTitle">添加</span>权限规则</a>
+</div>
+</nav>
+
+<div class="add-box">
+<form class="addForm ajax-alert" id="form1" name="form1" method="post" action="__APP__/Common/addData/controller/System/backUrl/ruleList/table/Rule">
+<input name="id" type="hidden" id="id" value="<{$_GET['id']}>" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr>
+        <td align="center">规则标识</td>
+        <td><input type="text" class="form-control" name="name" id="name" placeholder="请输入规则标识" /></td>
+      </tr>
+      <tr>
+        <td align="center">规则名称</td>
+        <td><input type="text" class="form-control" name="title" id="title" placeholder="请输入规则名称" /></td>
+      </tr>
+      <tr>
+        <td align="center">规则状态</td>
+        <td><select name="status" id="status" class="form-control">
+          <option value="1" selected="selected">正常</option>
+          <option value="0">禁用</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td align="center">规则表达式</td>
+        <td><input type="text" class="form-control" name="condition" id="condition" placeholder="可选项" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>
+        <button type="submit" class="btn btn-success ajax-post" id="saveButton" target-form="form-horizontal"><i class="fa fa-check" aria-hidden="true"></i> 添加</button>
+        <button type="button" class="btn btn-default" id="cancelButton"><i class="fa fa-times" aria-hidden="true"></i> 取消</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>  
+</div>
+
+</body>
+</html>

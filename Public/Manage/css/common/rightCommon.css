@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:40px;
+	}
+/*欢迎界面样式 begin*/
+.wel-box{
+	overflow:hidden;
+	}
+.welList-box th{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-weight:normal;
+	background: #F9F9F9;
+	}
+.welList-box td{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border-bottom:1px dashed #ccc;
+	}		
+.wel-fastMenuBox{
+	width:3806px;
+	height:90px;
+	}	
+.wel-fastMenuBox a{
+	display:block;
+	width:64px;
+	height:90px;
+	float:left;
+	margin-right:50px;
+	}	
+.wel-fmTitle{
+	display:block;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	}
+.wel-fastMenuBox a i{
+	display:block;
+	width:64px;
+	height:64px;
+	background:url(../../images/fastMenu.png) no-repeat;
+	}		
+.wel-house{
+	background-position: 0px 0px !important;
+	}
+.wel-task{
+	background-position: -256px -128px !important;
+	}
+.wel-mess{
+	background-position: -192px 0px !important;
+	}
+.wel-calculate{
+	background-position: -256px 0px !important;
+	}
+.wel-maps{
+	background-position: -320px 0px !important;
+	}
+.wel-huod{
+	background-position: -448px -128px !important;
+	}
+.wel-youhui{
+	background-position: -192px -64px !important;
+	}
+.wel-undefind-1{
+	background-position: 0px -64px !important;
+	}
+.wel-undefind-2{
+	background-position: 0px -128px !important;
+	}
+.wel-undefind-3{
+	background-position: -64px 0px !important;
+	}
+.wel-undefind-4{
+	background-position: -128px 0px !important;
+	}
+.wel-undefind-5{
+	background-position: -384px 0px !important;
+	}
+.wel-undefind-6{
+	background-position: -448px 0px !important;
+	}
+.wel-undefind-7{
+	background-position: -64px -128px !important;
+	}
+.wel-undefind-8{
+	background-position: -128px -128px !important;
+	}			
+.wel-welDiv{
+	height:auto;
+	overflow:hidden;
+	margin-top:20px;
+	}	
+.wel-infoDiv{
+	width:33%;
+	height:500px;
+	float:left;
+	/* border:1px solid #EAEAEA; */
+	margin-right:0.5%;
+	margin-bottom:0.5%;
+	}
+.wel-infoTitle{
+	height:40px;
+	line-height:40px;
+	/* background:#F9F9F9; */
+	/* border-bottom:1px solid #e6e6e6; */
+	/* padding-left:20px; */
+	/* margin-top:1px; */
+	}														
+/*欢迎界面样式 end*/
+
+
+/*数据列表页面样式*/
+.list-box{
+	overflow:hidden;
+	}
+.list-box table{
+	border-left:1px solid #e6e6e6;
+	border-top:1px solid #e6e6e6;
+	}	
+.list-box th{
+	background:#f7f7f7;
+	}	
+.list-box th,.list-box td{
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+	}	
+.listButton{
+	float:right !important;
+	margin-right:8px;
+	}	
+.listSearch{
+	margin-right:15px !important;
+	}	
+i.faSort{
+	font-size:24px;
+	cursor:pointer;
+	}	
+i.faSort:hover{
+	color: #0093DD !important;
+	}	
+	
+	
+/*添加数据页面样式*/	
+.add-box{
+	height:auto;
+	overflow:hidden;
+	}
+.add-box table{
+	border-left:1px solid #e6e6e6;
+	border-top:1px solid #e6e6e6;
+	}	
+.add-box td{
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+	padding:0 0.5%;;
+	}
+.add-box td[align="center"]{
+	background:#F8F8F8;
+	width:12%;
+	padding:0;
+	font-weight:900;
+	}		
+	
+.upload-listDiv{
+	float: left;
+    padding: 10px;
+    background: #F7F7F7;
+	box-shadow: 0px 0px 3px #B7B7B7;
+    margin: 10px;
+	}
+.upload-listDiv:hover{
+	box-shadow: 0px 0px 10px #B7B7B7;
+	}		
+.upload-ldButton{
+	height:auto;
+	overflow:hidden;
+	padding-top:10px;
+	}	
+.upload-delete{
+	color:#730000 !important;
+	float:right;
+	margin-left:5px;
+	}	
+.upload-listCover{
+	float:right;
+	color:#D36514 !important;
+	margin-left:5px;
+	}
+.upload-detailsImg{
+	float:right;
+	color:#00B7EE !important;
+	}		

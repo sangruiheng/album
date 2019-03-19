@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Common:common" />
+<load href="__PUBLIC__/css/common/rightCommon.css" />
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">权限规则管理</a>
+</div>
+<div>
+<button type="button" class="btn btn-danger navbar-btn listButton" onclick="deleteData('Rule')"><i class="fa fa-trash-o" aria-hidden="true"></i> 删除</button>
+<button type="button" class="btn btn-info navbar-btn listButton" onclick="editData('addRule')"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> 修改</button>
+<button type="button" class="btn btn-success navbar-btn listButton" onclick="openAddData('addRule')"><i class="fa fa-plus" aria-hidden="true"></i> 新建</button>
+<form class="navbar-form navbar-right listSearch" role="search" method="get" action="__ACTION__">
+<div class="form-group">
+<input name="keyWord" type="text" class="form-control" id="keyWord" placeholder="请输入关键词进行搜索">
+</div>
+<button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i> 搜索</button>
+</form>    
+</div>
+</nav>
+
+<div class="list-box">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<th>选择</th>
+<th>编号</th>
+<th>规则标识</th>
+<th>规则名称</th>
+<th>规则状态</th>
+<th>规则表达式</th>
+</tr>
+</thead>
+<tbody>
+<volist name="list" id="vo">
+<tr>
+<td><input type="checkbox" name="del_listID" id="del_listID" data-name="multi-select" value="<{$vo.id}>" /></td>
+<td><{$vo.id}></td>
+<td><{$vo.name}></td>
+<td><{$vo.title}></td>
+<td><if condition="$vo.status eq 1 "><font color="#069800">正常</font><else/><font color="#B70003">禁用</font></if></td>
+<td><{$vo.condition}></td>
+</tr>
+</volist>
+</tbody>
+</table>
+
+</div>
+
+
+
+
+<ul class="pagination">
+<{$page}>
+</ul>
+
+</body>
+</html>

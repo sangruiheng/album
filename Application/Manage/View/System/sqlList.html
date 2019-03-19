@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Common:common" />
+<load href="__PUBLIC__/css/common/rightCommon.css" />
+<script>
+$(document).ready(function(e) {
+	
+});
+</script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">数据库列表</a>
+</div>
+<div>
+<form class="navbar-form navbar-right listSearch" role="search" method="get" action="__ACTION__">
+<div class="form-group">
+</div>
+&nbsp;<button type="button" class="btn btn-info exportExcel"><i class="fa fa-sign-in" aria-hidden="true"></i> 导出Sql文件</button> 
+</form>    
+</div>
+</nav>
+
+<div class="list-box">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<th>选择</th>
+<th>表名</th>
+<th>类型</th>
+<th>创建时间</th>
+<th>编码</th>
+<th>表注释</th>
+</tr>
+</thead>
+<tbody>
+<volist name="list" id="vo">
+<tr>
+<td><input type="checkbox" name="del_listID" id="del_listID" data-name="multi-select" value="<{$vo.id}>" /></td>
+<td><{$vo.name}></td>
+<td><{$vo.engine}></td>
+<td><{$vo.create_time}></td>
+<td><{$vo.collation}></td>
+<td><{$vo.comment}></td>
+</tr>
+</volist>
+</tbody>
+</table>
+
+</div>
+
+
+
+
+<ul class="pagination">
+<{$page}>
+</ul>
+
+</body>
+</html>

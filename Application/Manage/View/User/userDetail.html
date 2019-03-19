@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Common:common" />
+<load href="__PUBLIC__/css/common/rightCommon.css" />
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+    <button class="close fixed" style="margin-top: 4px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">用户详情</a>
+</div>
+<div>
+<form class="navbar-form navbar-right listSearch" role="search" method="get" action="__ACTION__">
+<div class="form-group">
+</div>
+</form>
+</div>
+</nav>
+
+<div class="list-box">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+
+<tr>
+	<td align="center">昵称</td>
+	<td><{$user.nickName}></td>
+</tr>
+
+<tr>
+	<td align="center">头像</td>
+	<td>
+		<img class="albumdetail_img_thumb"  src="<{$user.avatarUrl}>" width="70px" height="70px"  alt="暂无用户头像" />
+	</td>
+</tr>
+
+<tr>
+	<td align="center">授权时间</td>
+	<td><{$user.addTime}></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+
+
+<ul class="pagination">
+<{$page}>
+</ul>
+<script src="__PUBLIC__/js/status/status.js"></script>
+</body>
+</html>

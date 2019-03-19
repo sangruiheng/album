@@ -1,0 +1,426 @@
+[2018-11-26 12:45:56]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543207569,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'gxFP5E2CNOsdGO3v2vF2Q6sYl/LGzrQD6Y/N/J1P6VcSmkVvyaPBq0yk7Phypz4hOfFePfaS33p9ISDI2N4nh1gVofXFsKxx3KQfzOq3ZbMWES/NxqfPTX+79WLpywKCheJWqaBjoyDG0Nz6sYXVOxkUl7AmpbGAOlgDaANS4qHfl2FqyWjwfHVkvpDc0v+K1muU/TkPSCNkIRef/cD+ARssK8PAMfrnrKWhlqGseVyBcoTQEqaihBiJViPEw1401HjF5Q+KPSL6UJdGrQrWJshM22MJ+1+D5QAuXb6MBuM=',
+)
+[2018-11-26 12:45:59]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543207571,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628026048930454305,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdmgFo4iczhVtSTR5R6VTTUdo3eWDNb8YFWT2cpEorSiaCDnok12MCraeg/0',
+  'ThumbMediaId' => 'Nfi7d0ZBNYEyA2ZMuD3FhL_O_W1JZEbXQTJgFAU3R5h6pfgcTYb-xzT-wLnk4y5s',
+  'Encrypt' => 'CdNUwtnQfjP7/MSYUt/SppTDyK3j3veNGzcQQ12HMvjeknil5OvNFaKwV8McGvhMXTsE6zRuOr/26l2911sHeZVv1pO8URVPnhLURjfXIS6hBBNUUc6IpK7cL08tIu2gA7vos2M/E8+v3JMZ9lJTHr0E8FSJlF1TQtdDszdqm+ivs4CP3CqAa3J/nMX3vPJjkTpXPhKxaIZ31xCKMvn/6WnrAg25cCr8/nkl+GqYxvv7TNmPYMDL8RpAioNS99V5BIiBGjQ3FO6AHbeGiF7Xk2684Aq1+ylkbD94mGjuASBMk+iHb8WcuViB/fHDk7lBm20CW10IAGqD091QWTS/57gufVo4qDk7s3kZzyZg3C/QQ/PIuGmsdMxktqp5+z6uJ58y5LhdPKvi9SX7yNSonKfLjPOGovGU63J3dI5bLCGUxVa9HdHWbzhEP2CAEo8bEsBgT/uNCD+Za6C7dpRVYw2b2z3J9zGq3gXTjz4owp33tkFT4xVSusp1NOW2qfz2IStJgB8g8ZIP/B91T+qjV5FQgLYQ8yw91N33izLOMKU/CL5Ocv8XVJvo0Bu2ZVQlScv2WL3+IWPHZitNoYxiZGlS9kPsieKPctQNRotB0pix7M3XLl6bk0Q3tWkH+e9+CJJG40LIFiReT0IIG+wnv5tkQhhBrOlDuGU0hqkit1v3AlN/nji5RbSgLwON8k6qyDPf7YCcpw81E2Wn7XJf9g==',
+)
+[2018-11-26 12:50:41]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543207855,
+  'MsgType' => 'text',
+  'Content' => '想不到吧',
+  'MsgId' => 6628027268701166370,
+  'Encrypt' => 'jF4NDsIPaSRIqA2kyQLnBEOCZVvyCFkZ+NhtcxOVmpMnlJC3LA06HRGlr5w5zv0DObPtnZ9gSzt/cCa+z29TVy1zHLLTxXMql2S03Vv+SX6XrLEOeKsOnBl+fzs5AZNErbw3i1j4eCv66GgHTFH1H2qqygbgqQKrUZIXOp/A5ykcCeH8WOF1CYlLv1dnkMa1qjO+GR6LQp2ZOveCvQppYiS+FaT2BPru+qvl2SnuarPA1on1QWCxp8v3cEeiFTF58J42imaXniC95h8twuf+fUWOZ+5YqYtALupK+k1MdrYPWheFs/Pa2DmEHY4hLxX3hof/zmlYY+QyIOL1MotweA==',
+)
+[2018-11-26 12:51:41]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543207915,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'PT6zokxj+F0g7slFCWNvQpCP3gqq3Gufh0qPUGTUhIMFyWjrNqFlYzBMxWRKTdKtdGIIQEGRxDjkASJuJyD0CY89TGyNRHqLevvpdkmtZsC/0lX3B+x4UiBxYwyxjw50ctYMNMvotRqiBi3iaN1+Uda0uMrTnZY6LFG1xlqr419EkRKT+HOINAohiKZYKGIYcGE/yiR2oFRdc+iMuq4S0ffDlbtPq8ZCDeBijxsedC9J4QhkGJTPDlb3Q/BwBE26a74EtJ/wBVyMR9AutaKJdyzDPkGx9cPRAZjHSm+hm1o=',
+)
+[2018-11-26 12:51:44]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543207917,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628027534989138723,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdCggtGhTlh5aTxFNaazh2ic4Liay8ia5u9D53ZUFE6wfia4ib5vQqRJg1ySQ/0',
+  'ThumbMediaId' => '8ZX4clsX5G-EL47jnv6K03MrVFH1LO0mv1lm357-CI4sLtPo8P1ERtSTHOIX8Pcs',
+  'Encrypt' => 'eY4NM8X0PStqwEl2k/hxKx00J2sWAmh/rp95Hg8CM9bHmw9FfpyNOR6ZnpfxlW1Bl4ixnwmIt1x22mgOfXJMxvOsOEGex+rzH5HWVCIvtTfgsKWv31P5pD2icrUMSovXZqhXkp+SQFqs81UbibjumUq2DP4u3ePSt060GNKqdugMjnV6fd4q+le+Xj/EgC2lG9knSvHygjlAdIrqTqABnQkiX2pGw1ge6gYWSIZ/zY6gsQqpTCnJSPUueCiyz4IfYeNgSqmTO2FpCtqBA6bH2wJ7BWNJxVYj+ShndoBmMYIyg0/5j6UzCQ2t49oFWSNUfEToGVKi0cgFH7ybj7A/dJxyOSHTiC8neR+oMx7UkhKILE8DMzRX3+pGVah/azOqZ3mBkj/wTMUo7GZ9KyUIpFvryY5SPmYidRWis8MpQxpfrwejGkdZL5+OqPDzLvS7ThOlwXunQk6PIb8bCsNfwUVmMKikkCAPD2cEH/W08Z9M0Jom1XceGa7dlH0pmLowl+OEF4/ksp4Ez44/MM1wGEihsY5l0y23DFW4Z0/CstyVcl5CwD3CYaXAp8MBPglnyzCyUFyRNzDQH0zkmmE8XA5KeaI6X0KbWUJdhrWS4o2P+A0dxUPOUcF9CIbqhMZ4g1dke349S2CFY5aiiLEtfMvhDt0Zu2srEZWLFh7pLEadlKsqb5o9h4A4+CJZWprB7dl4SEeehK1VOu2IaA15xA==',
+)
+[2018-11-26 12:51:45]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 12:57:58]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543208292,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'peP8uZih4Ua2gefdfjc2AaKsJWpNgoIC/o44p0j6OQ/nlSfNZS/3rZk/w08053N4qP9xjB2XOialv3CLnRp9Nm4ONhSRa8lSM+h0jlQ6BJdCkX0vwokCSM6fkGhqCTP4IBcHoTrAg+qlednatpsV+SCEItZ3JP2gbU5GSdbcsv7Ugz/Na9Kfi7Mu49Pi105qleJ3/SkNI9Rz+BDWxRFCaKFP/eSLBf1JKgvpcvrkvJ3bw2s0+twy5nUTcUDXMkwNlWwzySGsvCIGHdfEYh4beN9SXkOlQLhvJKTK/R+F8hw=',
+)
+[2018-11-26 12:58:02]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543208295,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628029158486776614,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQxerXzQibrFtG4Bztpia5dVJC8rRaiapkESDb2203xIyLVmRyA4xkXHWA/0',
+  'ThumbMediaId' => 'QjFYIZTJmbwNl7VjhC8MqD2f17AlhH3U6Kfe9yRn5lDmZUrWsOma2YCPpiXqhnbg',
+  'Encrypt' => '+3I+WsgW4E0pFRVY14PihQxRGxBHUd4EtJ5rPGys3njHc4OqsugIODPg5DutHZDxtMyeLNzBizeq0nmUZ0vEGDCAOFovXp3BfuUEwwnQMeIKayoSDLCv/32sYZcEWWDekk/3nJMI6JMBGqRvRlgk7xLp+4vwOdXRFB29vX1Iola0iYwAf6vRkLlIwHhQ6zygccJBM233eTveUJARF96gdrEZUJWA3otes8uVvimhlbg9UHQg48aItTzLb6uKYmfoCyxuTLKEQstUBtm+I+dyzQ0jgiCa4XChW5mko0zYrNQual5nJb0RpDa4j2gN9M/PYxmCQ8Qyk2Vz9GUj7pWSXGk/7eM7JyFATNechD6KzQL/jEIN+9CgMCs3jvm8F/SGSvmr1F9t5+LsCY0nNj9//NUpY/nzZzJ2lT0lyvdIyPhzJDptkaLwKyJssA+eCb6LbrwXzgby2FH6rWuaTbdhjuNSOpfq7EZyiojt4OAzGDBOElASnwveOhn4xy+QmKEehrI4U2YUkCGlntMUiTXfLqsmO4VE0nTGGzaqVTIsPeRXyPn3KRIKBzXfe9m0Wpv5rPRdcjSJc+XFCZVHCYqtl0k2o+MC0q+UcDSso5rhMNUkPXuVdE2fP4b1DXHG1XibLPcgNopgon1GzjnFZFPUXi4jzbo5x639pcTkBWb7Lnbp3zAFgdXYxY26lRHrdhCP1TLVrlZUNyzk+s6ZMMgMdQ==',
+)
+[2018-11-26 12:58:02]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 12:59:04]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543208357,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'TYqYq7bizxAKVb9oo1KalEIEUs9JPfimVTlulrlsDf/1ZXocEAaXIrW5N27NIGGDGOiwUbHwz8T2vl6Bf+7w+NRuxm07MYx2Wn/odWQRZV1bYhdnZGmsBMH+iYMGyJHmWNtmDnzPa7YQb4UvEJQ3AhFWfb5+ZyTIRxcjQt/3QqyCOlgE1AvuJrZIVCiA5NoJSBNzTGGYZS0pbA/yySD2Qj24fO0x1y3BjjTL4m50J9PqTgI8pafbloFA217UPMbj/dh6k/i9fB6EEVjG8bXLQu3mmDPoae10NK96jznjdnk=',
+)
+[2018-11-26 12:59:06]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543208359,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628029433364683560,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQxerXzQibrFtG4Bztpia5dVJC8rRaiapkESDb2203xIyLVmRyA4xkXHWA/0',
+  'ThumbMediaId' => '93l3_1sXhPl8cvQsY46ymuUi9GtyS_xmuJjgggAelxQFEQ4GBwWjZexJ0yk8FiRh',
+  'Encrypt' => 'NkY+ZSPw7pKtIuswTuPPOXIpJwJ73yKqRZN5byc2HcWiH77lPLw2oHMlIl9T0ey0naitG64NqQJeP9vsGDDIUAZGtAJuDSu9WXrwhLMiCBL990e8ueEQjt2kl7p9bGnFYYYXEG0tppHoJpKLKoHX9KuiZ8cWaQkfesYWtNt2XQUS0XiT2dLZTdIObEqWsDbqVO6MdWImpqOhz4A34HUQSc9f9T2ToxvFWgZBa4oZJKFA+GfvL9KTAeS/g+OPcd1j6Lm8swGoppW0fY4LsUsgnm5V+l51A4wBhv0neFm4WELSKS+Zk8zJamsiHFD+nseKgmnvPssuQbfVFXazFjPZana0RuDrcEclVNC5gklT6rqQAhS/tMoh6BCtpDfM3JM/IWeubDWbAwgBx/zhWg0zYzpU5fUnuEOpamQkOel+7EteGjNqzNxuB/zgqgkS8tAvs11ccdRgBUU6DoJluLsRKw13ECjgSIXguI2y6TeuLAQNYY6Yugyez8iWjbKO0ABzu5KPYS+CjG2PLwZl+rScqzPyglOYDCasir0PwPUWMEWArzTI3itKQI3qXLeAskMuM+bcvga4gNGXnzOS8Bbcnrd4GTVd7CMol/tCS9xpvxEMIsOV5R29u7coCB5LVf5YtgHuIYynMkhnsogASEiArbd/XV8rO4OZ5+CdKnumy2cSiPFkMgn5CNI2uLABYyZEP+8kruyaPPjPEzO65hXfjg==',
+)
+[2018-11-26 12:59:06]'{"touser":"oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ","msgtype":"link","link":{"title":"\\u70b9\\u6b64\\u8fdb\\u5165\\uff0c\\u5373\\u53ef\\u5206\\u4eab\\u670b\\u53cb\\u5708","description":null,"url":"pages\\/index\\/index?id=","thumb_url":"http:\\/\\/mmbiz.qpic.cn\\/mmbiz_jpg\\/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQxerXzQibrFtG4Bztpia5dVJC8rRaiapkESDb2203xIyLVmRyA4xkXHWA\\/0"}}'
+[2018-11-26 12:59:06]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 13:42:39]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543210972,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'rymFSTU5o2NgSrjM8RlaxIDYQVPMsTIO9qwvrSd9L+mWRhVOveipHibU1pkX0Kjgpp81HVk0woUpTNop3QJ1TDNr8qzdAYBMv/Q6t1HJ9ouN4dGXZqlvAzaVHd8qZDlMPeoxRgcZepqxPbApwvu5KBx098IG0/GsnNGlWvq4Y8N+JHeki7fup6UYHx3rLzmxI4JQG5/ZqJptI0fTRBqJdlApuqCQW440mxhBJyrOKl3Vvxhm4OR4jrV8KoeUATJdFUDFH8aEQXE2QXF5wgoFuUijaWzXVD3WoYzcM62po5M=',
+)
+[2018-11-26 13:42:41]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543210974,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628040664704162603,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdtjIfBMFdcbBQr9VyD16KOjS1ibDdNaIJ26kzZrF1JmzHmUdl8t0iaia8Q/0',
+  'ThumbMediaId' => 'UcV4dQe9f8JUAEdmM1rha5_CrY5NjxoCnYeIgnmWh0ZV0G2Qs3Gj6EjmXS-mGjRE',
+  'Encrypt' => '4BoP+WiAcZ4CMbrC4Aen6jC9KFKbHP8XWvTDolJKl7EhXWCGX6w7iluapJKfFsLCDhgOoZeic+Coq7EL5P1kuSaybd47QAj8YLCRhGUP2R/MyveNWjJD4Wd+OJI2a9Ykh5b5LsFNfz/+5u+MVkh0t+JZj5P4rGjKjZ8e6g7EiZHHl1iHsiDbRxxIKFGyoGkZ8XlYmARIOUdvoRjjygOIAxulFQdXifStLAAcCQwlNTJZTLwxhDXanW98Al0BNMCqxmsdW3Zgsd2inj8FCXhTqGKWOUp4W4PhX4xqh3nd9CBPKa9gnEy/npQgPSU8/vQmEOJEmRBd1BnvKps/AlRvn+vQxNb8AVMfce+4pCVE8YQw+L6p2pfyu7KjqJIZNHeBJao/fF8SqBY4IMxml6jL154U07zTk+/cdStxQ5VrsqeL5coLbSXqtqSLHvWc/r1m6vYH9SK+DQzsOBiHFevw0j81xFbfoChO6FwEuE/bxLu7Mjraf8pM20lG0NxJSuwtJs0qA5WV66DlWe5CDZwxijAc63EPkjTD3kgG06e0U6B5uDFghBJh0P263b4VhOLm10vhQ8p+jQ3DDezN4QpzubmzGedqalSgU6tZENbUS5fVqkVPyPRvD30X7ufx5th5ZJrvCyQSt5hNFxMWLueDal5M0PlJuSF6q2P5f5EW6xuZx6pxcPdkIwTsTufb4zFhg4IIOVMVnjcCxF6ElGB1/w==',
+)
+[2018-11-26 13:42:42]'null'
+[2018-11-26 13:42:42]'{"errcode":40003,"errmsg":"invalid openid hint: [4GWkbA09763938]"}'
+[2018-11-26 14:00:43]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212057,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => '7uVIi3Uw5uWeBUbETCNxsBIDKz7PopFvyYYhNsu9iTqyJAMl0Q8HTDT6BJnlEIsIv88WAJo52dORsVlRH3DqV3HfDAWBf1ZUWL1zVBTE/JDk2wCAmApQ2dwtgWx/05JqTmXW6V3c7QTHUjvudvfeiHpDHeokDN1hRtsEnFme9nZZX+vtQ8VDui9buwCnpooXD44XqQ4nACLL1eMfvZXSRzvJ+zxdze8G3B5WLOru+1rcW0w/kBafA7JYenxMcaqFrnGPIiMDMqbbZqk3lP9/ubYWaVQ9ntXm7qg5hCYgVkI=',
+)
+[2018-11-26 14:00:46]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212059,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628045324743678766,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQ5ohy0gyXHZYmrUTN1hRb4uGniaEAic9qHDtn9FpLEOUe7FG6NT0fTkA/0',
+  'ThumbMediaId' => 'FOYqRCvl5pv5x1AV0w2BCEpBDGGcQOf0mx7XZntvy5cfd9Ijbp-oUeXkbL1WWObK',
+  'Encrypt' => 'VrWoDRLuwCQVnsvKjYilr96nwyzLTkz8yV3ZywmkeJuz5nGlhUMwuYKhVj8f2lIcTGUrEoiQfOjmDEqsZevkBC4W1yklCDutHCzAmnQ8phFjMmxRF1wIv/As2viVd7XJ9SGtnFPOXwXDheqWi2H0gVHA+52+weBFYxd0mXbSE1CMuAyIixw9+0e9nJDqhOGwD9zCUXa9oA17Ns9UByeBE87c8g4l9twQOhsbFt/Ood2hcOYicmJvXicFYm037juC8TUI5vMVeEpyCZmUmg8vZiBE8Vf7NV+/KyBjE+CPMvCywaKW4zj65sqeFgw8JvsEhN1lg+MuVHHHgxJLQRdx42hDKV1vtTfYTDFmnLEZt60tNuOoPz7oKYYpZxAQh5x8n0zC6WZ2A/XMm+aYRr+fO7bmLaJBbDawovnvLpMKF3DZrZHib9WCIy07FzaiKIG8IC2diBSZeX7IWAcnSZvSkmlpfrIg0vgBqvsF8t1U3VEHQRRDfKwS1MoG7yY8fHTTLvc30Gdu9LtvTub3X/wk4iAkkeQTHIiERvuKUx2ydK6nDgX6x2QWR07rVbf+MPXHfrwjnCJH5140Sr+ddU9tQNtKaX9oXeSBgER6Zpa6alXHz97+NI+jxVMsCd5VgZJzgiNUW7P1N6r0//DHs+3+Ewy9KU+hIVIw5UmYTogLgRbiBT3EMNA3t4vbUHv8QQGpE9DBhYyq8F6AwuWXaRTwuw==',
+)
+[2018-11-26 14:00:47]'{"errcode":40003,"errmsg":"invalid openid hint: [JBAa0a00603929]"}'
+[2018-11-26 14:01:46]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212119,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'zRkoitLH72i5Zih3Vn4lYBp6Q9JHt4cyCXasIZnY6iEWCRynOVRKG9eit07T8gBg5axQRWCMX0lSk5/koUWERbyWrteNbp1TOjzP/+snDZ6aF+NqLije3GMvjux/h57tCfNvJqe4iNh3ioXQxc4yCBPvVv38XYIgTFo/j5Cx1CoG98MXN8LqVJiH9wQouE7u6i3iki7DB9jhx638P4j0kzU4ekFzgmmlEY64QtULdDXMLPYq2XZkZdGhzMo2sNqdZ+kDJYqU6ynWquBZe+fEIRLWAbWEEXc3ruaQPWxFhdw=',
+)
+[2018-11-26 14:01:49]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212121,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628045591031651120,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQ5ohy0gyXHZYmrUTN1hRb4uGniaEAic9qHDtn9FpLEOUe7FG6NT0fTkA/0',
+  'ThumbMediaId' => 'nmxtVUTmZgl31D7RDXNdTIhis5W493EL_xXa-OSkyj1ozHs6EyrCGpWfk2gY_Lmq',
+  'Encrypt' => '618AQojwdCplXkkgMCJrf6fd3IBnEYboVFjCBROOq6Mcd94MG8aEqjRsW2OLWoGdrW1fDlZ6Vg83TG+NKPz9Lt3nP8pLYemWk69OHygbmbb0QBnhBxp7Q2s+yRAnfl9wN7J+Zsg4rd76rx3V+PkKHjLXyrCLellksyOdfX/dUdTbGZsQs5Xlo5fDjm4HA1BRp8KqJ9qfFCe/gxikWNOP4xBn4bHyhvSnIPA8+MdUzloePwbR/IknmjlgZ3nlosRUTjTiluRMp+cHwghaRS97GI/0oGC1AFXOQOW8SACp2UDvsxHFqRE5QAiVTB+UowEbP0xSFdSl3q4HeewOpQY+AsOlWdv99PrGHvHjuEgGjYB7NOEhD+s4rW1XGBXPVJhD7vvksHs24uRBSTTSRStHqSejZTehcxT7krtwlhzpE5xLn2C0MzFbWaKHHNDxybFxb2IueGwVoQNo8ptZbzdN0/s8ewav4XqxUQ1NtO9X8rz/sZU5rfsphhLuBgfU80O+0AbIPa4bPCcXYPQK9QR/zwJ+6OMNmVaZIA/xGeMD9gs7gHRO79fcOqWsygiByv9IbntnsjRy+qu1Sk2YdE7a2sb7xHGcSJW9O+9ZbJTzuACDYGp/YCJYjI/hfP+Kf3UZ40Trc0jhVRF/gehQX3r8B39VwQcncAjxw3K2ZOlq5lthnLpfU61//S3Mzu68nmPHoAD0anEqwcD6gFMPTdfFMg==',
+)
+[2018-11-26 14:01:49]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 14:02:25]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212159,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'uNgREZ8ifIbuppb8P1WKRnErCsDFwMwFpVvHoUsMrG9Va4ozDyBeeKkt9rLh5uN8gYCngqjj+Re2A9mYyv/1mZLL/x1WpEnqg2DuV08B48+P8eTFK2c3COXTvywf+za3rCx5i9/SbIt/BF98jbm5/9aybqzBoj3plvAb5vh5irMJ5a5/hso7nvfj9dT5mW+Aj4UziAqsbXIAblOq7YvGCJXMq3/Pbds21e4IyqPdToKDoCRhNDLIo5P2mbBr5s92d3shuNZg2lXKyiu/4u4OSM0aR/frJcpeEVSsUxJbdl8=',
+)
+[2018-11-26 14:02:27]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212160,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628045758535375666,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQ5ohy0gyXHZYmrUTN1hRb4uGniaEAic9qHDtn9FpLEOUe7FG6NT0fTkA/0',
+  'ThumbMediaId' => 'urqCIvLtZyEnqCiQs-MoTp85UBtjSOHTPP5u5fOGIn28USNYy2o98k66-fg0ATmw',
+  'Encrypt' => '4eGEUqrmPbzsLuED/w27Id9fQQTKtSqDBf75kW1akMuHxYTVCteBEPjRJp8os9wkEcQs4jJR3HYmq5YAfYky8W7bXdQQddP6cxlwGk01Jn4ix28Oba1ovfOOof8UIPWHqPUiSAcQjbncmDIxbcdoihqLK6kSA0ran3oq5hIKr5zCg3tCMNYljJZ2eigX53GMPnR/XPExrP8X7iqXzuY3HjxO4stIu1ADtM3clgnItM7U1Ml3bIRlA11GyTipwQuracr+TfYlavyAU3m3wSysXxl5i4uSlWpLpSFrcwvT2+Og4K4iZPy16XaLpJPu/YsWNtbstq6lgilJ9Gn08WuqQ6UoLTq+mf7zZl8wWQL3nOoDn0LPi+dY0uJXSBjVSQkdHjUVgBcJphqlNHwVISkUZR9QNcmQ5AbbbOr8uF7eFKD5ZBRK+3LY5HaVbiJYUh+5j7XTzLe8LXc9Wj7p95WEhextLmAlt53EXbffAV2xpR6P6dCukhHButuNEf4TsVhMIKlfAz5nlfa3c/f6i7QesQK/FLz81/FrF2aDqX3ClYM/oPZ+wznKC1FeUPNR6qwOciGkSHPm5ndMbre6zxA5oEDEpsMA+SKmVhYQrHOuksoB7L2MFu3+TH09e1cv1HsuYitwiYvwTBE5vCe/1x+g5nrLS7RWUrNuyX+b9dgyTZYT48o2CqK1bycbTO81ko47dI8KkBEj836sEysLySRWBA==',
+)
+[2018-11-26 14:02:27]'                    {
+                    
+                        "touser": "oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ",
+                        "msgtype": "link",
+                        "link": {
+                              "title": "点此进入，即可分享朋友圈",
+                              "description": "打开页面，点击右上角的【...】，分享到朋友圈",
+                              "url": www.baidu.com,
+                              "thumb_url": http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQ5ohy0gyXHZYmrUTN1hRb4uGniaEAic9qHDtn9FpLEOUe7FG6NT0fTkA/0
+                        }
+                    }'
+[2018-11-26 14:02:28]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 14:04:20]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212273,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'nRmfeBB4P/s92zh3ZWTFutn/gIfTawZXLOA0VyLmAtfVBRp076g1h/Y0FJ+f3dxK6AP6li3JVNO1nTx9hgvZpkZ4B69YPmKfvjebVBrAZAoG58jhGK8LzJUifFosNpdJzBy0FBpahkJs+zJXZvgSGZxL/itNGHjBMHrWZzbLxf9a5HBZx732WU4RMVnkrb6ls8191X74SBejh9XgUKaAu8Om58VA8QVWyJDYp1P+RFz5sCAf2CThGFhQGg6lQ400QpWVx3vXpNuf5tvE6ESnOcll6YgXHmQg2zgjaGsfHD8=',
+)
+[2018-11-26 14:04:22]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212275,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628046252456614708,
+  'Title' => '分享标题',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/index/index?id=',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQ5ohy0gyXHZYmrUTN1hRb4uGniaEAic9qHDtn9FpLEOUe7FG6NT0fTkA/0',
+  'ThumbMediaId' => 'S9kOH8d1k3h9Bva3oKncFSoNly5ZGIZecYZrxGuUYKxTRVbWDx8mWAhjr3_ortyQ',
+  'Encrypt' => 'Ll952L7fAJFA/4POBrINIJrNr9JrrFw0R/Mq+fpsN/d+jooAILRv81nDKI0DIPBxQAH0yNrS2tTenm5BSJRfQeqA1RLIb2GfAodwGq9Ctrv9dw7wozgKTTaxVogf/62R9Vze085/UfqStjuUjBA7aEk+2fBNvEUnEqlueHVRDVPZ9DCOgPFn45wpLwHxdo1ufwXq2S/Vk4zXg1hBZNqhNH0m0N0gC1XJ+GgOpRiTMg21d/pVc0q1Eg9Aw6UsnaiCeyNyXWs0RBzpJc/ORAbm7AjvNgDAiY6YXjAEKkNbgV991CakRw43GzJ85sO5m7PRshriQpxTRwZfR0nVlgqYPEb3gLNFMFmzO5eI/9D/o9qiipOYXihgCgke2yGb2n6vKw2KXzwy7XJGL28CI0XonocmO13ugyz2nwqv1JtXq2JHga2bmWXBlj8ImE+MVcZbFqXyzkDXpVd2DmwGbwEwzln7wv4Mqi2oYQQKvUiF/x4bNz8/PvTBU9Yxb2akJnIYdvYemDnCnRilo7KgSvIWkcUwmAeADE//VT0xotEIRoE2MsSaqUyKL5dpUPOWoD5zTck0OQRcWRBTuZndshO3Tyea4mLHRR9syMB7NQx9Cevqi/9BH/eyrP8smZ1UWLf9Ko7Yj4loIqhXT3oXWIJ1zLBkBIj/zWYBPfLEkt6UCBa4X+kKAUKsdWnCFFIPF7fhMOlXww169FyebWoGexsOIw==',
+)
+[2018-11-26 14:04:22]'                    {
+                    
+                        "touser": "oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ",
+                        "msgtype": "link",
+                        "link": {
+                              "title": "点此进入，即可分享朋友圈",
+                              "description": "打开页面，点击右上角的【...】，分享到朋友圈",
+                              "url": "www.baidu.com",
+                              "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdQ5ohy0gyXHZYmrUTN1hRb4uGniaEAic9qHDtn9FpLEOUe7FG6NT0fTkA/0"
+                        }
+                    }'
+[2018-11-26 14:04:23]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 14:10:35]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212648,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'hFu8Xo2haz0y40Qyp6m53yeXnzYIskxic8CfH1p9L/BGj77Q8VzbmYM0J+9M6vwpzYzaA0vXXFI0Rc+B2YytoI7m4QtndC+n5Et6mJwoJiq9fAGALgQ63yU3iYmoI49/XKAjFAagQhH+p2ioGARDVPVhBfBXWJD73EpOHKOVtIdsqs2tWVg/KWKDDp5Ih/2fNY7iD/HWw77w0BhebqZl/fSfgPhChFfUNR5WrNeOPUCQoQCPhjy8SVf5WCsgBtExiSB1WJL7l0ysdQSdfb99+mjI/U6OfHhmZctfdHeEKWc=',
+)
+[2018-11-26 14:10:42]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212656,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => '3Je/m6fY/KU5cT9giNCQhLbVbrItkNH1+WB0wZA1aanbdPb/EPp8VcZ5PFgvY/QBlwkguvFRIdmPKaneCd2hRY4fYhM+nhifv4J6uLSptU/OvxSxa22zx9/k0yHv/ApT3IYtdQZmteUbQ8HBTPGpIWorj7JSKEn00sCWcUoD27dE07cp6F0Z6Ssos42Kf7ahf18ymtm4ZpAiNgkvKLsNnDvsSFgJ0UNueRvQjD0vv8ZEVvwWEcsnC6XioGpF656CZJQj2PaclhlqpeebxIZmtvajkH5sgzMaGO7VRn7aTCk=',
+)
+[2018-11-26 14:10:44]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543212657,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628047893134121783,
+  'Title' => '都不能上班',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/albumPreview/albumPreview',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdeXUnIxNcEG4QSlXo0uSUibVW6shaCy1X9y5bbFcHes4I1IEr9zY72eg/0',
+  'ThumbMediaId' => '_ByKETa_aAYHgz_KGM9J-4nLu57zQzcn9g1w84Qf_OyMGV7z4VKo35D1Mp8LoCVm',
+  'Encrypt' => '4Mc5hGmgoOzpQv4coIej1fSKQLA5xffl6GdHn6j51YI8bDtl+b/eI7gETDgAtobkpXzqhIIzSocB03/Ys5m+gKizg36e9WuFsb/2aIPb1Yx/91R94d5k8+339EdZGsodKZ6GLeIRb2kj/e5WUYusWqyvAd3c/n+pb8AobH7Fu3dORS79jOUD/8LnItMFHZcl6q95+JYP+qkjFem5rvNuMGwEbmQosbDHfQVI4LRML1uqE6naDQMkIl+zUR6OpU0wX8Gz5Vx8ezMqZSo9PIned8K/KNw/5k8xnP6Twfi1zPvBejmqVrFm9SEiyimKmgauBFWJ8fwUOnDpUxb8CuRxdeAazBd05ahe8HsFBMmMPZyopeT9GKqZoZmdv1/xtV1e9oORtEIWG4wdfpHxfL9az2zv/ukIXRF+5CavmPjgj2PcBRJAQjs/YFHnfHfK3qWToKWeG1jnDJn6Vix1Pd0HuBTBQcL+l47T/4ufVmUo4zLsi+YNstZR2xR6i+6lAPrDWUiYvy19rDtNsfLjL/RLl4dPPxc4P7havpBDln2Vx8a3feqhWz4YO0z9oHju5tauVSV257Lxkk3uN8njT0qIRkennZ8hco1sWFhZmk59Fegh1tkRSSXLawpAXSU0iYvmkyqIJpr8phaoLvVm1qOs2qlFt/TbcNWpL46RsqeMLTjmVTwXP1KFt/mUQ6VAkfd2mcWMlFmGrNGskCHe4RbB+A==',
+)
+[2018-11-26 14:10:45]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 14:19:11]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543213164,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'yW8SSOivqdENcL5sTUCiRwftX75AQ5AobDsKQqmvcDc4QvVrJvhrkywk+C9u3Kj1CLAJ8DW2HMtJGLgVP7TjUzjGhSDZlHk5fD7wCHnSGB7+Gl3XA9Hi/JQmcLGWhxVQIkMzkGsO0Ga3m8WFHvtKEhzHjFbjnLJ0rOaFPuKaWf/Bel/J9TR0dujoaxM0HyjDErh9mDbkh3XTToYI5iu9K+kJw9ctWAUcYWADq1UjuAPMNWPpHL1G9UuYbSwa5NJjU3Z/4uWQk45mqo1ZWPLp5m+1QFXXQbAlCkKUwvCEOPI=',
+)
+[2018-11-26 14:19:22]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543213176,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'WKv6ZmVP8IxzOsFJfKriFDaTFvC0z66MNZFn9WkNIjyVLXMMKkfhkAXb2PhpSUrvciHsLX50HxAyNhl9Xb63SsBOkQNAvQxhbHIDNwlAk0KFc2rcstLYYqAKskUXc4koDAur+qbEND9G8JK7hMs83qRP37LEH1sJuvJXPrAl+jAMr9belQcGxB0lN8FaRJy+UtpN7t6lso7SN9KwLztktz4bzLJFYA3g4F0p110AlKxsXcyBTAz4lUXOBu0UBMGUs1RP7CGMOOl5I58PwQQaacRYkDUxuceHIk1MToLpIkA=',
+)
+[2018-11-26 14:19:24]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543213178,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628050130812083002,
+  'Title' => '大吉大利',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/albumPreview/albumPreview',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdyMF0UVyyR35lwrXdWNWcHrEexjCkmhNnpABF17yRnYNOtKQH818licw/0',
+  'ThumbMediaId' => 'pTCl2J-sVmqOj--C971PDeXKzndTTR4QWACRxTf4yQAj3Mdig_sXqakWiRwt0MgL',
+  'Encrypt' => '2bdbtHGUrfUM+inIjeFvF9pJwRMvNmgd7MWz0D9TY1AcjxJGe8JsQipxiVzUBNkl+xK0VDwj80HNnAs51f+UFVGoroZ0+RIKfHcvRkYp4I8cpkEzkywMx4K7DfsWSqqnVq+hEQrwGC/87zVq8ojmg94ooXiGGzdI0xUrEuY4kuPKMn5W3RzG0Ezz2yMEJjuLMmJ0OGoUA/07b2tPUxv0V+NxkdtLRPAz+sCa2cHhNL3pMEnhybiDWK+MLK1LZ6OFkenKSyjmy7Qpf8UHa2Xk1IvSfX8hv4BrmPgEFeiLehNLKVDEdB5+sBf2lgsxkwzs1dmoONbmWm6N3Z9Kus84yW+9e8FD65sggexWelGraqLkUBGjwY6HMEMypClqPG4ukvNR+hHx95+gauiJ3Lch6oG29emQyg0A1rpP6GI7LpBFhc+AIs2JEBZBKIisxpVcqBComsFUJmg5DR5k5JmGOQjDtjqp9iCPm2POyimrHez+B1uJQyzshQGIh7z8i6UIqcWTN7noXUsApME04a2XZUQZlzm55MJIGtuEnTTIYctqzhRA2fTDPU/AY7MDGiQNXRv9vyJMSARxgRNBVg0cUqWeMfX7i9KgI6R4+TgLDfr1ypCevCmLyK9f+CcDbtX2nmyX5yT6A//mve2M++fRs4/EwUT2mBtpqS0rlA06hYnmDM2qwulYj6bxaZ2rkPg5FGW4viZ/JGQF3onbf07isA==',
+)
+[2018-11-26 14:19:25]'                    {
+                    
+                        "touser": "oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ",
+                        "msgtype": "link",
+                        "link": {
+                              "title": "点此进入，即可分享朋友圈",
+                              "description": "打开页面，点击右上角的【...】，分享到朋友圈",
+                              "url": "/pages/albumPreview/albumPreview?albumId=1",
+                              "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdyMF0UVyyR35lwrXdWNWcHrEexjCkmhNnpABF17yRnYNOtKQH818licw/0"
+                        }
+                    }'
+[2018-11-26 14:19:25]'{"errcode":0,"errmsg":"ok"}'
+[2018-11-26 14:36:30]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214204,
+  'MsgType' => 'text',
+  'Content' => '行不行宝宝',
+  'MsgId' => 6628054537448528700,
+  'Encrypt' => 'ndiQwbuKki7NzOyAbH58qv2bSbXx+o0ams6UZu4jldgRIGQUkIUH6WcZ0dSG1BGxhId58DTwnd9N4F2RJkSUQsRMG/tQp31gSBpPhxQr+2Meq12GJHSA/9A62ufXCkDnwrDyc0JrHrP1wjWix41lPhpJcJUJHdaXdrwS79wNs4r8UW+cgB6ouMMp9NG79PpzVSpNNt+OFLOl68CXSph2RmHXD8YmIwrqoSl4tR6uxNUPXjvpVKjc1gl+2l/YDNOax/LKuGOF/MQapH/U9Tc3CzyYrZpE6QmQKjFe8S1B90SZyJNtDjm4a3x1bKr5GRMBs/1jLfWK9ksY2dhorWIisg==',
+)
+[2018-11-26 14:39:35]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214389,
+  'MsgType' => 'text',
+  'Content' => '上班不上',
+  'MsgId' => 6628055332017478461,
+  'Encrypt' => 'HB3tEXnX7k2XudrYzUbjTgzWowMm6L5E+8kJFJjNG0Sr4NpJx71B5+KnqjTKk0LCl2t2QO0f6pVD2hQE/QQLumwdA36clxDH1q/ugCaX8QoaVOyAC8fFxs0hWOvyONpRg55R+tyFsu0sydrJAAARTGi3zFNiazpgaGIRRlJa0VWGsk25x7UJ0ctKhKOhWtGCAczOF+ZAQCh79dRGgHAj3TDFOyIz+r5jvJyFgK6CQ1EnopEBafpWBd5Bgs2FhwNXoKobEpIHX+3zuNHoxRbTVCGE5xfoQPhdNacDJXmjJ6lelW+B4x69OKqotZhsfWs1cdGHg1HBkTjuHMc9nHHerg==',
+)
+[2018-11-26 14:40:52]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214466,
+  'MsgType' => 'text',
+  'Content' => '你进来',
+  'MsgId' => 6628055662729960255,
+  'Encrypt' => '1wgUqXFKjZhzrGnOJMyUCVs4j0KN13Mag8m3+Zl2C9JRzkjym/l7mOyK8a2ueipxM7Zh7K571sWuNIMG6PaIfs3KFOVWCc+r7G5hLciWp9oclZ6tw/w7x7CIkTsMKc72MvVszm6HLYUy99KhwYFMVAZ7Hxt6BDX7DtiXu78CEYMQT7IWBJcUvD3kyMsC+Jrykz03bQq6QCv8ht4bU/mkGT8loAI6MnF5RF181mr6tdq7sc52G1UGAyFzdb3fmXibFGckGeZDAuhJsazTia1S90JwYwTkX02WtIRHRnv6zr4=',
+)
+[2018-11-26 14:40:57]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214466,
+  'MsgType' => 'text',
+  'Content' => '你进来',
+  'MsgId' => 6628055662729960255,
+  'Encrypt' => '1wgUqXFKjZhzrGnOJMyUCVs4j0KN13Mag8m3+Zl2C9JRzkjym/l7mOyK8a2ueipxM7Zh7K571sWuNIMG6PaIfs3KFOVWCc+r7G5hLciWp9oclZ6tw/w7x7CIkTsMKc72MvVszm6HLYUy99KhwYFMVAZ7Hxt6BDX7DtiXu78CEYMQT7IWBJcUvD3kyMsC+Jrykz03bQq6QCv8ht4bU/mkGT8loAI6MnF5RF181mr6tdq7sc52G1UGAyFzdb3fmXibFGckGeZDAuhJsazTia1S90JwYwTkX02WtIRHRnv6zr4=',
+)
+[2018-11-26 14:41:02]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214466,
+  'MsgType' => 'text',
+  'Content' => '你进来',
+  'MsgId' => 6628055662729960255,
+  'Encrypt' => '1wgUqXFKjZhzrGnOJMyUCVs4j0KN13Mag8m3+Zl2C9JRzkjym/l7mOyK8a2ueipxM7Zh7K571sWuNIMG6PaIfs3KFOVWCc+r7G5hLciWp9oclZ6tw/w7x7CIkTsMKc72MvVszm6HLYUy99KhwYFMVAZ7Hxt6BDX7DtiXu78CEYMQT7IWBJcUvD3kyMsC+Jrykz03bQq6QCv8ht4bU/mkGT8loAI6MnF5RF181mr6tdq7sc52G1UGAyFzdb3fmXibFGckGeZDAuhJsazTia1S90JwYwTkX02WtIRHRnv6zr4=',
+)
+[2018-11-26 14:41:12]' '
+[2018-11-26 14:41:17]' '
+[2018-11-26 14:41:22]' '
+[2018-11-26 14:41:44]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214517,
+  'MsgType' => 'text',
+  'Content' => 'v地方',
+  'MsgId' => 6628055881773292353,
+  'Encrypt' => 'CwBrPY4oJNIQjAjYn0mf/mPuDa1R0ogGkGlEi5e6egfCq3IkupBQtGsiqBAbjO4BP+ufrQkdcasLGUYMp1iRqDHlGBppTE95ldVhWlN3XOn88BPmg5zxmhIeK8utBZ4ycs3LW+fV7BWCLRmCMTq2cuN4/Nrx/uqgs2dHwg8xmsuswuGWSdVQ2DcUWoKzn8bulzFWfszLwireMtovF8UyY6DZHavM2E3C4dmiAiquimsrS4l81vwKucsjMqhEYQsOEBKk7rnoOukdZqq+Oey4y0yXbaazCYTGB/j8CAnRvjE=',
+)
+[2018-11-26 14:41:49]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214517,
+  'MsgType' => 'text',
+  'Content' => 'v地方',
+  'MsgId' => 6628055881773292353,
+  'Encrypt' => 'CwBrPY4oJNIQjAjYn0mf/mPuDa1R0ogGkGlEi5e6egfCq3IkupBQtGsiqBAbjO4BP+ufrQkdcasLGUYMp1iRqDHlGBppTE95ldVhWlN3XOn88BPmg5zxmhIeK8utBZ4ycs3LW+fV7BWCLRmCMTq2cuN4/Nrx/uqgs2dHwg8xmsuswuGWSdVQ2DcUWoKzn8bulzFWfszLwireMtovF8UyY6DZHavM2E3C4dmiAiquimsrS4l81vwKucsjMqhEYQsOEBKk7rnoOukdZqq+Oey4y0yXbaazCYTGB/j8CAnRvjE=',
+)
+[2018-11-26 14:41:54]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214517,
+  'MsgType' => 'text',
+  'Content' => 'v地方',
+  'MsgId' => 6628055881773292353,
+  'Encrypt' => 'CwBrPY4oJNIQjAjYn0mf/mPuDa1R0ogGkGlEi5e6egfCq3IkupBQtGsiqBAbjO4BP+ufrQkdcasLGUYMp1iRqDHlGBppTE95ldVhWlN3XOn88BPmg5zxmhIeK8utBZ4ycs3LW+fV7BWCLRmCMTq2cuN4/Nrx/uqgs2dHwg8xmsuswuGWSdVQ2DcUWoKzn8bulzFWfszLwireMtovF8UyY6DZHavM2E3C4dmiAiquimsrS4l81vwKucsjMqhEYQsOEBKk7rnoOukdZqq+Oey4y0yXbaazCYTGB/j8CAnRvjE=',
+)
+[2018-11-26 14:42:04]111
+[2018-11-26 14:42:04]' '
+[2018-11-26 14:42:09]111
+[2018-11-26 14:42:09]' '
+[2018-11-26 14:42:14]111
+[2018-11-26 14:42:14]' '
+[2018-11-26 14:43:42]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214636,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'rX7Rfq0t5Ssi55l2A6J98ffnF4dGvTmIo/NpkImVWQcs/aWLSLZjYkIo3yVFs+We38zdWQGFCPx9cNdj5c3IHtBZ0vAlZ8kFzNFF/ltDxYTNeZpzdv5rojrNTqkQeVqaqFBBvT04rU7yM9hKK9Z3KJ3YN7IjZuDL0NRSXCuYEB+rzLTceSLG5dxioqZKyAwMEDby7fEAODoAPJ2knwGyDm1FfaLxGV2THb6WpnsmqqTrnlHCIQyBKlMbB8VyFE5Gr6cSqZQwS2cJh+i2SWdrNCG6WX/h+vKI8hq/gWj8UUY=',
+)
+[2018-11-26 14:43:49]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214642,
+  'MsgType' => 'event',
+  'Event' => 'user_enter_tempsession',
+  'SessionFrom' => 'wxapp',
+  'Encrypt' => 'V1PEB7aB08lI3aO8N3gzqtse3+EJfjG8YNcVSFUuFWWwNj+6RJhN+F92VcQu4MsTKlyA5cWhhD8nfMsmyv6AR0rZSgZ81eEXB6m8+3Ld6CuB5a0Q2CFO5D/OT5UbrcD7ffvuiqN7+YUm/3/XUjnVTuiXTSX3Xzq6PzzzmSzOvEAnw7msrlOmlZjIQeA0Nz32mKs1dTlBkN+IMtnrFhNhpnmwW9u+i2TGkX0eFB8R7jmNf7B88e8E/1j0u1U95JCC57H+pZYfA/IQxNtElgpvZwgflGi7Go08ME5gLYTfv8k=',
+)
+[2018-11-26 14:43:51]array (
+  'ToUserName' => 'gh_e891c10c4234',
+  'FromUserName' => 'oLOeZ5UtNDAVgaK-fIAiH1-NUAKQ',
+  'CreateTime' => 1543214644,
+  'MsgType' => 'miniprogrampage',
+  'MsgId' => 6628056427234138947,
+  'Title' => '你厉害了',
+  'AppId' => 'wx5fa2df0d2026644f',
+  'PagePath' => 'pages/albumPreview/albumPreview',
+  'ThumbUrl' => 'http://mmbiz.qpic.cn/mmbiz_jpg/v60eRSOXYDodRTDz20pk29R7MPDwnNAdeAE7l3VqpXIJMG1X4emCoeY4Jq6ewfvtp8rFDVQwYFfHqcbqdHfNTA/0',
+  'ThumbMediaId' => '-mS0H2coCcwBOhguAU9uVuPLIuDm7JGLsdLwwRuKUQ2hcK1vPsvesIpj_J379XNR',
+  'Encrypt' => '+9Tcb4b+9xCBbE1zWQIkBbp940Y/rPOaMGVCm6Wj7rR5is2iKM2OovYAtYv36lgRyGv9kTdtGZjfQ0GvTK7I3mwWO/iHbY2hwANx+15HyyAO/Kq7ZrogHyjuu5/ANIZPZEuyreBcO1HIwy9Ahqv6+OX8OPMze7x5P7aWjPEYi4uTB7kT3Vq08yQsaSlgEPc7SnZd35b33xLuMiNseKh+ifp1yZU+DTy5/kBAx+sevsedJrOvP+BMWVcKwdof1hb75kLc5rhntUgz+fmc6lnsCYqbKHBdk5H6G1X+hlywbnDL+Px2CyDMwgqtveSELVV7X3uLdUV3DuJm1s0SjQeOqP34KKrP6SfoQTpJws08UEVbka4M/VRTwIgv7uB0NBd6dIZHMHfH7Fxgw7VRXqS/3iZZ+nT1pdAnbVEoyj7EyHDTKJ/w6WO8nb9BlSvD2kX4IQHYKIqHP/1CwTaBLRZh9y+gfpKrs+0CelXf6OWpVC6KFZDsK2RwKDNBwV0D4m/4OOpL3N/3Pq9Res51Ot+4Z0VEVFN1dBtEjzTm339oAXZEia+QX4mZkN/iDS7rhWWlIm203Czh7AtrkXaN1DAgb2vw2WpPFCOJleGLkkeuhTx5dnmNEN6uwiyDbIK6IqahTpZVh0quF5XQrZ39yK7i40QhOnito3/7LHa67LfaUeJchtXJaxzUJgouJ0WWmf36UfDEnopj631alY62sLimaw==',
+)

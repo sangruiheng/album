@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>无标题文档</title>
+    <include file="Common:common"/>
+    <load href="__PUBLIC__/css/common/rightCommon.css"/>
+    <script>
+        $(document).ready(function (e) {
+            getEditData(function (jdata) {
+
+            });
+
+
+        });
+    </script>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+    <button class="close fixed" style="margin-top: 4px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><i class="fa fa-plus" aria-hidden="true"></i> <span id="changeTitle">编辑</span>录入管理</a>
+    </div>
+</nav>
+
+<div class="add-box">
+    <form class="addForm ajax-fadein" id="form1" name="form1" method="post"
+          action="__APP__/Entry/addEntryData/controller/Entry/backUrl/entryList/table/entry">
+        <input name="id" type="hidden" id="id" value="<?php echo $entryList['id']?>"/>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+
+            <tr>
+                <td align="center">语音输入时长</td>
+                <td><input type="text" name="voice_number" id="voice_number" class="form-control" datatype="*"
+                           onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"
+                           nullmsg="请输入语音输入时长" placeholder="请输入文字输入字数"/></td>
+            </tr>
+
+
+            <tr>
+                <td align="center">文字输入字数</td>
+                <td><input type="text" name="words_number" id="words_number" class="form-control" datatype="*"
+                           onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"
+                           nullmsg="请输入文字输入字数" placeholder="请输入文字输入字数"/></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <button class="btn btn-success ajax-post" type="submit" id="saveButton"
+                            target-form="form-horizontal"><i class="fa fa-check" aria-hidden="true"></i> 添加
+                    </button>
+                    <button type="button" class="btn btn-default" id="cancelButton"><i class="fa fa-times"
+                                                                                       aria-hidden="true"></i> 取消
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
+<script>
+
+    $('.ajax-post').click(function () {
+        var voice_number = parseInt($('#voice_number').val());
+        var words_number = parseInt($('#words_number').val());
+        if(voice_number <= 15 || voice_number >= 60 || voice_number == NaN){
+            $.show({
+                title: '提示',
+                isConfirm: false,
+                content: '输入的语音时长在15~60之间'
+            });
+            return false;
+        }
+        if(words_number <= 2 || words_number >= 140 || words_number==NaN){
+            $.show({
+                title: '提示',
+                isConfirm: false,
+                content: '输入的字数在2~140之间'
+            });
+            return false;
+        }
+
+    });
+</script>

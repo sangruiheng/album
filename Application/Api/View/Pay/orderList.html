@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <title>微信支付样例-支付</title>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<br/>
+<font color="#9ACD32"><b>该笔订单支付金额为<span style="color:#f00;font-size:50px">1分</span>钱</b></font><br/><br/>
+<div align="center">
+    <button id="btu" style="width:210px; height:50px; border-radius: 15px;background-color:#FE6714; border:0px #FE6714 solid; cursor: pointer;  color:white;  font-size:16px;" type="button"  >立即支付</button>
+</div>
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+        $('#btu').click(function () {
+            $.ajax({
+                type: "POST",
+                url: "http://admin.yjsina.com/api/pay",
+                data: {id:1014,address_id:7,token:'2981b0fb23095384e94df81c18c0fe5e'},
+                dataType: "json",
+                success: function(data){
+                    callpay(data);
+                }
+            });
+            // $.ajax({
+            //     type: "POST",
+            //     url: "http://admin.yjsina.com/api/memberpay",
+            //     data: {token:'621c72cc8c7d5378f9940cfb2510979d',id:3},
+            //     dataType: "json",
+            //     success: function(data){
+            //         callpay(data);
+            //     }
+            // });
+        });
+
+
+        function callpay(data)
+        {
+//            alert(typeof WeixinJSBridge);
+            if (typeof WeixinJSBridge == "undefined"){
+                if( document.addEventListener ){
+                    document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+                }else if (document.attachEvent){
+                    document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+                    document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+                }
+            }else{
+                jsApiCall(data);
+            }
+        }
+
+        function jsApiCall(data)
+        {
+//            alert(data);
+            WeixinJSBridge.invoke(
+                'getBrandWCPayRequest',
+                data,
+                function(res){
+                    WeixinJSBridge.log(res.err_msg);
+                    alert(res.err_code+res.err_desc+res.err_msg);
+                    //使用以上方式判断前端返回,微信团队郑重提示：res.err_msg将在用户支付成功后返回    ok，但并不保证它绝对可靠。
+//                    if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+//                        location.href="http://jiaju.icpnt.com/Index/order";
+//                    }
+//                    //当用户取消支付返回支付订单详情页
+//                    if(res.err_msg == "get_brand_wcpay_request:cancel" ) {
+//                        location.href="http://jiaju.icpnt.com/Index/index";
+//                    }
+                }
+            );
+        }
+    });
+
+
+</script>
+
+

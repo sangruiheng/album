@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  border: 5px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 20px;
+  background-clip: content-box;
+  box-shadow: 0 0 0 5px rgba(0,0,0,.2) inset;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+body,ul,li,input,select{
+	margin:0;
+	padding:0;
+	font-family: 'Microsoft YaHei',"微软雅黑", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	list-style:none;
+	}
+a{
+	color:#333;
+	text-decoration:none !important;
+	}
+a:hover{
+	color:#ea5404 !important;
+	}		
+/*统一后台背景色、边框色	*/
+.com-bg{
+	background-color:#1d3446;
+	}
+/*统一后台背景色、边框色	*/
+.com-headerBox{
+	width:100%;
+	/*height:114px;*/
+	height:110px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+	z-index: 999;
+	}
+.com-headerTop{
+	height:60px;
+	border-bottom: 2px solid #1d3446;
+	}
+.com-logo{
+	height: 60px;
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+    text-shadow: 0px 1px 2px #000;
+    font-weight: 600;
+	}		
+.com-hederMenu{
+	height: 50px;
+    background: #F9F9F9;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+	}	
+.com-htRight{
+	height:40px;
+	float:right;
+	margin-top:10px;
+	}	
+.com-userHea{
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	float:left;
+	border: 2px solid #fff;
+	box-shadow: 0px 1px 3px #000;
+	}	
+.com-userName{
+	height:40px;
+	line-height:40px;
+	padding:0 10px;
+	float:left;
+	color:#fff;
+	position:relative;
+	margin-right:60px;
+	}	
+.downArrow{
+	position:absolute;
+	top: 7px;
+	right: -6px;
+	font-size: 18px;
+	cursor:pointer;
+	}	
+.com-heaMenu{
+	height:40px;
+	float:left;
+	margin-right:20px;
+	}	
+.com-heaMenu li{
+	height:40px;
+	line-height:40px;
+	float:left;
+	margin-right:5px;
+	}	
+.com-heaMenu li a{
+	padding:5px 10px;
+	color:#fff !important;
+	}
+.com-heaMenu li a:hover{
+	background:#fff;
+	padding:5px 10px;
+	color:#333 !important;
+	border-radius:5px;
+	box-shadow:0px 0px 2px #666666;
+	}
+.com-hmUl{
+	height:50px;
+	padding-left:80px;
+	}	
+.com-hmUl li{
+	height:50px;
+	line-height:50px;
+	float:left;
+	margin-right:40px;
+	}
+.com-leftBox{
+	width:0px;
+	height:100%;
+	float:left;
+	background:#fdfdfd;
+	top:110px;
+	position:relative;
+	}	
+.com-hideIcon{
+	width: 19px;
+	height: 22px;
+	font-size: 17px;
+	position: absolute;
+	top: 17px;
+	left: 20px;
+	z-index: 1988;
+	cursor: pointer;
+	color: #CFCFCF;
+	}
+.com-hideIcon:hover{
+	color:#949494;
+	}		
+.com-lbLeftShadow{
+	width: 3px;
+	height: 100%;
+	background: url(../../images/leftShadow.png) repeat-y;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	}	
+.com-leftTitle{
+	height:60px;
+	line-height:60px;
+	font-size:18px;
+	text-align:center;
+	background:#fff;
+	}					
+.com-leftMenu{
+	height:auto;
+	overflow:hidden;
+	padding-top:20px;
+	}
+.com-leftMenu>li{
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	}	
+.com-rightBox{
+	height:100%;
+	position:relative;
+	top:110px;
+	right:0px;
+	}		
+input.jcDate { cursor:pointer; background: url(../../images/dateIco.png) no-repeat right 8px center;}	

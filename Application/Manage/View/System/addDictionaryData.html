@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Common:common" />
+<load href="__PUBLIC__/css/common/rightCommon.css" />
+<script>
+$(document).ready(function(e) {
+	getEditData(function(jdata){});
+});
+</script>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+	<button class="close fixed" style="margin-top: -18px;margin-right: 7px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#"><i class="fa fa-plus" aria-hidden="true"></i> <span id="changeTitle">添加</span>字典数据</a>
+</div>
+</nav>
+
+<div class="add-box">
+<form class="addForm ajax-fadein" id="form1" name="form1" method="post" action="__APP__/Common/addData/controller/System/backUrl/dictionaryDataList/table/Dictionary">
+<input name="id" type="hidden" id="id" value="<{$_GET['id']}>" />
+<input name="hierarchy" type="hidden" id="status" value="2">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+      <tr class="afterTr">
+        <td align="center">字典数据名称</td>
+        <td>
+        <select name="typeID" class="form-control" id="typeID">
+        <volist name="list" id="vo">
+        <option value="<{$vo.id}>"><{$vo.typeName}></option>
+        </volist>
+        </select>
+        </td>
+      </tr>
+	  
+      <tr>
+        <td align="center">字典数据名称</td>
+        <td><input type="text" class="form-control" name="dataName" id="dataName" placeholder="请输入字典类型名称"/></td>
+      </tr>
+      
+      <tr>
+        <td>&nbsp;</td>
+        <td>
+        <button type="submit" class="btn btn-success" id="saveButton"><i class="fa fa-check" aria-hidden="true"></i> 添加</button>
+        <button type="button" class="btn btn-default" id="cancelButton"><i class="fa fa-times" aria-hidden="true"></i> 取消</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>  
+</div>
+
+</body>
+</html>

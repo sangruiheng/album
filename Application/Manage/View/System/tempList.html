@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Common:common" />
+<load href="__PUBLIC__/css/common/rightCommon.css" />
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">系统临时文件</a>
+</div>
+<div>
+<button type="button" data-id="<{:C('AUTH_MODULE.auth_del_id')}>" class="btn btn-danger navbar-btn listButton" onclick="delLog();"><i class="fa fa-trash-o" aria-hidden="true"></i> 删除</button>
+<form class="navbar-form navbar-right listSearch" role="search" method="get" action="__ACTION__">
+<div class="form-group">
+</div>
+</form>    
+</div>
+</nav>
+
+<div class="list-box">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<th>选择</th>
+<th>文件名</th>
+<th>文件路径</th>
+</tr>
+</thead>
+<tbody>
+<if condition="count($list) gt 0">
+<volist name="list" id="vo">
+<tr>
+<td><input type="checkbox" name="del_listID" id="del_listID" data-name="multi-select" value="<{$vo.id}>" /></td>
+<td><{$vo.fileName}></td>
+<td><{$vo.filePath}></td>
+</tr>
+</volist>
+<else/>
+<tr>
+<td colspan="4">Oh!暂无列表</td>
+</tr>
+</if>
+</tbody>
+</table>
+
+</div>
+
+
+
+
+<ul class="pagination">
+<{$page}>
+</ul>
+
+</body>
+<script type="text/javascript">
+//删除系统临时文件
+function delLog(){
+	$.show({
+		title:'提示',
+		content:'确定要删除系统临时文件吗？注：文件删除不可恢复！',
+		isConfirm:true,
+		callback : function(){
+			$.showLoading('正在删除……');
+			//$.closeShow();
+			$.post(APP+'/System/delLog','',function(ret){
+				$.closeLoading();
+				setTimeout('location_href();',1000);
+			});
+		}
+	});
+}
+function location_href(){
+	window.location.href = APP+'/'+CONTROLLER_NAME+'/'+ACTION_NAME;
+}
+</script>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<include file="Common:common" />
+<load href="__PUBLIC__/css/common/rightCommon.css" />
+<style>
+.addForm tr td .on{background-color: #449d44;color:#fff;}
+.select-all{float: left;margin: 6px 17px;border: 1px solid #ccc;border-radius: 5px;background: #ccc;height: 34px;line-height: 34px; padding-left: 12px;padding-right: 12px;cursor: pointer;}
+</style>
+<script>
+$(document).ready(function(e) {
+	getEditData(function(jData){
+		// $('input#password').attr('name','');
+		// $('input#password').attr('placeholder','如不修改密码，请留空');
+		// $('input#password').val('');
+		
+		//修改时选中群组
+		var groupID = jData.groupID;
+		$('div.select-all').each(function(index){
+			if($('div.select-all:eq('+index+')').attr('data-id') == groupID){
+				$('div.select-all:eq('+index+')').addClass("on");
+			}
+		});
+	});
+	$('#password').keyup(function(){
+		if($(this).val() != ''){
+			$(this).attr('name','password');
+		}else{
+			$(this).attr('name','');
+		}
+	});
+	//用户群组点击事件
+	$('div.add-box').on('click','div.select-all',function(){
+		$(this).addClass('on').siblings().removeClass('on');
+		$('input#groupID').val($(this).attr('data-id'));
+	});
+
+	//验证是否全部填写
+    is_click();
+	function is_click() {
+        var username = $('#username').val();
+        var password = $('#password').val();
+        var reName = $('#reName').val();
+        if(!username || !password || !reName){
+            $('#saveButton').attr('disabled',true);
+        }
+    }
+	
+});
+</script>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+	<button class="close fixed" style="margin-top: -18px;margin-right: 7px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<a class="navbar-brand" href="#"><i class="fa fa-plus" aria-hidden="true"></i> <span id="changeTitle">添加</span>用户</a>
+</div>
+</nav>
+
+<div class="add-box">
+<form class="addForm ajax-alert" id="form1" name="form1" method="post" action="__APP__/System/addAuthData/controller/System/backUrl/adminuserList/table/Adminuser">
+<input name="id" type="hidden" id="id" value="<{$_GET['id']}>" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+
+    <tr>
+      <td align="center">用户名称</td>
+      <td>
+        <input type="text" name="reName" id="reName" class="form-control" datatype="*" onkeyup="value=value.replace(/[^\w\u4E00-\u9FA5]/g, '')" nullmsg="请输入真实姓名" placeholder="请输入真实姓名" />
+        <span id="warning_reName" style="color: red"></span>
+      </td>
+    </tr>
+
+      <tr>
+        <td align="center">账户名称</td>
+        <td>
+          <input type="text" name="username" id="username" class="form-control"  datatype="*" onkeyup="this.value=this.value.replace(/[^a-zA-Z0-9]/g,'')" nullmsg="请输入用户名" placeholder="请输入用户名" />
+          <span id="warning_username" style="color: red"></span>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">密码</td>
+        <td>
+          <input type="password" name="password" id="password" class="form-control" datatype="*" onkeyup="this.value=this.value.replace(/[^a-zA-Z0-9]/g,'')" nullmsg="请输入登录密码" placeholder="请输入登录密码" />
+          <span id="warning_password" style="color: red"></span>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td align="center">备注<font color="red">&nbsp;&nbsp;*</font></td>
+        <td colspan="3"><textarea name="remarks" id="remarks" cols="45" rows="5" placeholder="请输入备注"
+                                  onkeyup="value=value.replace(/[^\w\u4E00-\u9FA5]/g, '')"
+                                  style="width:100%;height:200px; margin:10px 0px;"></textarea>
+          <span id="warning_remarks" style="color: red"></span>
+        </td>
+      </tr>
+
+      <!--<tr>-->
+        <!--<td align="center">手机号码</td>-->
+        <!--<td><input type="text" name="phone" id="phone" class="form-control" datatype="*" nullmsg="请输入手机号码" placeholder="请输入手机号码" /></td>-->
+      <!--</tr>-->
+      
+      <!--<tr>-->
+        <!--<td align="center">电子邮件</td>-->
+        <!--<td colspan="3"><input type="text" name="email" id="email" class="form-control" datatype="*" nullmsg="请输入电子邮件" placeholder="请输入电子邮件" /></td>-->
+      <!--</tr>-->
+      
+      <!--<tr>-->
+        <!--<td align="center">用户群组</td>-->
+        <!--<td colspan="3">-->
+        <!--<input type="hidden" name="groupID" id="groupID" class="form-control"/>-->
+        <!--<div class="selectList">-->
+          <!--<volist name="groupList" id="vo">-->
+          	<!--<div class="select-all" data-id="<{$vo.id}>"><{$vo.title}></div>-->
+          <!--</volist>-->
+        <!--</div>-->
+        <!--</td>-->
+      <!--</tr>-->
+      <!---->
+      <tr>
+        <td>&nbsp;</td>
+        <td colspan="3">
+        <button type="submit" class="btn btn-success" id="saveButton"><i class="fa fa-check" aria-hidden="true"></i> 添加</button>
+        <button type="button" class="btn btn-default" id="cancelButton"><i class="fa fa-times" aria-hidden="true"></i> 取消</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>  
+</div>
+
+</body>
+</html>
+<script>
+
+
+
+    //验证用户名称
+    $("#reName").keyup(function() {
+        if ($("#reName").val().length > 10) {
+            $("#reName").val($("#reName").val().substring(0, 10));
+        }
+    });
+    $('#reName').blur(function () {
+        var reName = $(this).val().length;
+        if(reName < 2){
+            $('#warning_reName').html('输入的字数在2~10之间');
+            $('#saveButton').attr('disabled',true);
+        }else{
+            $('#warning_reName').html('');
+            is_click()
+        }
+    });
+
+    //验证用户帐号
+    $("#username").keyup(function() {
+        if ($("#username").val().length > 15) {
+            $("#username").val($("#username").val().substring(0, 15));
+        }
+    });
+    $('#username').blur(function () {
+        var username = $(this).val().length;
+        if(username < 2){
+            $('#warning_username').html('输入的字数在2~15之间');
+        }else{
+            $('#warning_username').html('');
+            is_click()
+        }
+    });
+
+    //验证用户密码
+    $("#password").keyup(function() {
+        if ($("#password").val().length > 12) {
+            $("#password").val($("#password").val().substring(0, 12));
+        }
+    });
+    $('#password').blur(function () {
+        var password = $(this).val().length;
+        if(password < 6){
+            $('#warning_password').html('输入的字数在6~12之间');
+        }else{
+            $('#warning_password').html('');
+            is_click()
+        }
+    });
+
+
+    //验证备注
+    $("#remarks").keyup(function() {
+        if ($("#remarks").val().length > 20) {
+            $("#remarks").val($("#remarks").val().substring(0, 20));
+        }
+    });
+    $('#remarks').blur(function () {
+        var remarks = $(this).val().length;
+        if(remarks < 2){
+            $('#warning_remarks').html('输入的字数在2~20之间');
+        }else{
+            $('#warning_remarks').html('');
+        }
+    });
+
+
+    function is_click() {
+        var username = $('#username').val().length;
+        var password = $('#password').val().length;
+        var reName = $('#reName').val().length;
+        if(username>=2 && password>=6 && reName>=2){
+            $('#saveButton').attr('disabled',false);
+        }
+    }
+
+
+
+
+
+
+
+</script>

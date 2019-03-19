@@ -1,0 +1,39 @@
+<!--公共css-->
+<load href="__PUBLIC__/tools/bootstrap-3.2.0-dist/css/bootstrap.min.css" />
+<load href="__PUBLIC__/css/fontIcon/css/font-awesome.css" />
+<load href="__PUBLIC__/css/common/common.css" />
+<load href="__PUBLIC__/css/alert.css" />
+<load href="__PUBLIC__/tools/iCheck/flat/blue.css" />
+<load href="__PUBLIC__/js/tools/icpntDialog/css/icpntDialog.css" />
+<!--公共js-->
+<load href="__PUBLIC__/js/common/jquery-1.8.2.min.js" />
+<load href="__PUBLIC__/js/common/jquery.form.js" />
+<load href="__PUBLIC__/tools/bootstrap-3.2.0-dist/js/bootstrap.js" />
+<load href="__PUBLIC__/tools/Validform_v5.3.2/Validform_v5.3.2_min.js" />
+<load href="__PUBLIC__/js/tools/icpntDialog/js/icpntDialog.js" />
+<load href="__PUBLIC__/tools/iCheck/icheck.js" />
+<load href="__PUBLIC__/js/common/common.js" />
+<load href="__PUBLIC__/postInfo/postInfo.js" />
+<script>
+//定义ThinkPHP模板常量，方便在js中使用
+var APP = '__APP__';
+var PUBLIC = '__PUBLIC__';
+var URL = '__URL__';
+var CONTROLLER_NAME = '<{$Think.CONTROLLER_NAME}>';
+var ACTION_NAME = '<{$Think.ACTION_NAME}>';
+var GROUPID = '<{$_SESSION['crm_rules']}>';
+var AUTH_ADD_ID = '<{:C('AUTH_MODULE.auth_add_id')}>';
+var AUTH_DEL_ID = '<{:C('AUTH_MODULE.auth_del_id')}>';
+var AUTH_SAVE_ID = '<{:C('AUTH_MODULE.auth_save_id')}>';
+var AUTH_USER_ID = '<{:C('AUTH_MODULE.auth_user_id')}>';
+var AUTH_GROUP_ID = '<{:C('AUTH_MODULE.auth_group_id')}>';
+var PAGE = '<{$_GET['p']}>';
+var KEYWORD = '<{$_GET['keyWord']}>';
+$(document).ready(function(e) {
+    $('input[data-name=multi-select]').iCheck({
+		checkboxClass: 'icheckbox_flat-blue',
+		radioClass: 'iradio_flat-blue'
+	});
+	
+});
+</script>

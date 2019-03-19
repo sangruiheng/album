@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title><{:C('PROJECT_TITLE.ICON_TITLE')}>|v1.0</title>
+    <include file="Common:common" />
+    <load href="__PUBLIC__/js/main.js" />
+</head>
+
+<body>
+<!--header begin-->
+<div class="com-headerBox">
+    <div class="com-headerTop com-bg">
+        <div class="com-logo"><{:C('PROJECT_TITLE.LOGIN_TITLE')}>·管理系统</div>
+        <div class="com-htRight">
+
+
+            <ul class="com-heaMenu">
+                <li><a href="__APP__/Index/index" ><i class="fa fa-home"></i> 首页</a></li>
+                <li><a class="updatePwd" href="javascript:void(0);"><i class="fa fa-commenting-o"></i>修改密码<span class="badge"></span></a></li>
+                <li><a href="http://www.icpnt.com/" target="view_window"><i class="fa fa-question-circle"></i> 帮助</a></li>
+                <li><a href="javascript:void(0)" ><{$user_name}></a></li>
+                <li><a class="topLogOut" href="javascript:void(0)"><i class="fa fa-power-off"></i> 退出</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="com-hederMenu">
+        <div class="com-hideIcon" title="展开左侧菜单" data-state="hide"><i class="fa fa-bars"></i></div>
+        <ul class="com-hmUl">
+            <volist name="moduleTypeList" id="vo">
+                <li><a class="com-TopMenu" data-id="<{$vo.id}>" href="javascript:void(0)" ><i class="fa fa-<{$vo.moduleIcon}>"></i> <{$vo.moduleName}></a></li>
+            </volist>
+        </ul>
+    </div>
+</div>
+<!--header end-->
+
+
+
+<!--left begin-->
+<div class="com-leftBox">
+    <div class="com-lbLeftShadow"></div>
+    <ul class="com-leftMenu">
+
+    </ul>
+</div>
+<!--left begin-->
+
+<!--right begin-->
+<div class="com-rightBox">
+    <iframe name="right" id="icpnt_iframe" frameborder="0" scrolling="auto" width="100%" height="100%" src="__APP__/Index/welcome"></iframe>
+</div>
+<!--right end-->
+</body>
+</html>
+<script>
+    $('.updatePwd').click(function(){
+        var src = '/User/updatePassword';
+        // var iframeSrc = $('#icpnt_iframe').attr('src',src);
+        window.right.location = APP+src;
+    });
+
+
+    setInterval(function(){
+        $.post(APP+'/Index/validateSessionID','',function(res){
+            // console.log(res);
+            if(res.code == 400){
+                var error_msg = '您的账号于'+ res.data.nextLoginTime +'在'+ res.data.nextLoginIp +'登录，若非本人操作，请及时修改密码';
+                alert(error_msg);
+                $.post(APP+'/Common/loginOut','',function(json){
+                    window.location.href = APP+'/Login/index.html';
+                });
+                window.reloda();
+            }
+        });
+    },3000);
+
+</script>

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <include file="Common:common" />
+    <load href="__PUBLIC__/css/common/rightCommon.css" />
+    <style>
+        label{ padding:0 10px; margin:0; height:50px; line-height:50px; cursor:pointer;}
+        .card{
+            width: 30%;
+            float: left;
+            margin-left: 3%;
+        }
+        .card-text{
+            word-wrap:break-word
+        }
+
+
+        .message1 {
+            width: 100px;
+            height: 30px;
+            /*margin: 100px auto;*/
+            background-color: #8a8a8a;
+            border-bottom-color:#8a8a8a;/*为了给after伪元素自动继承*/
+            color: #fff;
+            font-size: 12px;
+            font-family: Arial;
+            line-height: 18px;
+            padding: 5px 12px 5px 12px;
+            box-sizing: border-box;
+            border-radius: 6px;
+            position: relative;
+            word-break: break-all;
+            cursor: pointer;
+        }
+        .message1::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: inherit;
+            left: -3px; /*向左侧外部延伸箭头box的一半宽度*/
+            position: absolute;
+            transform: rotate(45deg); /*旋转45度*/
+            top:50%; /*箭头在数值方向上居中*/
+            margin-top: -5px;
+        }
+
+        .card-text{
+            position: relative;
+        }
+
+        .message1{
+            position: absolute;
+            left: 80px;
+            top: 10px;
+        }
+
+        .voice_time{
+            margin-left: 40%;
+        }
+
+
+
+    </style>
+    <script>
+        $(document).ready(function(e) {
+           // var audios = $('.bgMusic');
+           //  console.log(audios);
+           //  $.each(audios,function (i,val) {
+           //      var audio = $(val)[0];
+           //      console.log(audio.duration);
+           //  });
+
+        });
+    </script>
+</head>
+
+<body>
+<!--alert弹窗Start  -->
+<div id="top-alert" class="fixed alert alert-error" style="display:none;">
+    <button class="close fixed" style="margin-top: 4px;">&times;</button>
+    <div class="alert-content">这是内容</div>
+</div>
+<!--alert弹窗end  -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"><i class="fa fa-plus" aria-hidden="true"></i> <span id="changeTitle"></span>相册详情</a>
+    </div>
+</nav>
+
+<div class="add-box">
+    <form class="addForm ajax-fadein" id="form1" name="form1" method="post" action="">
+        <input name="id" type="hidden" id="id" value="<{$_GET['id']}>" />
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+
+            <tr>
+                <td align="center">创建时间</td>
+                <td><{$album.album_addTime|date="Y-m-d H:i",###}></td>
+            </tr>
+
+            <tr>
+                <td align="center">相册标题</td>
+                <td><{$album.album_title}></td>
+            </tr>
+
+            <tr>
+                <td align="center">相册描述</td>
+                <td><{$album.album_describe}></td>
+            </tr>
+
+            <tr>
+                <td align="center">点赞数</td>
+                <td><{$album.count_like}></td>
+            </tr>
+
+            <tr>
+                <td align="center">评论数</td>
+                <td><{$album.count_comment}></td>
+            </tr>
+
+            <tr>
+                <td align="center">相册位置</td>
+                <td><{$album.album_position}></td>
+            </tr>
+
+            <tr>
+                <td align="center">相册权限</td>
+                <td><{$album.album_authority}></td>
+            </tr>
+
+            <tr>
+                <td align="center">相册封面</td>
+                <td>
+                    <img class="albumdetail_img_thumb" id="albumdetail_img_thumb" src="<{$album.img_thumb}>" alt="Card image" style="width:10%">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">相册详情</td>
+                <td>
+                    <div class="container">
+                        <volist name="album.albumdetail" id="vo">
+                            <div class="card">
+                                <img class="card-img-top" src="<{$vo.albumdetail_img}>" alt="Card image" style="width:250px; height: 200px">
+                                <div class="card-body">
+                                    <div class="card-text">
+                                        <span>图片美文：</span>
+
+                                        <if condition="($vo.describe_type eq 1)">
+                                            <{$vo.albumdetail_describe}>
+                                            <elseif condition="($vo.describe_type eq 2)"/>
+                                            <div class="message1">
+                                                <audio class="bgMusic">
+                                                    <source src="<{$vo.albumdetail_describe}>" preload type="audio/mp3">
+                                                </audio>
+                                                <img class="card-voice" src="/Uploads/Manage/voice/voice.png" alt="Card image" style="width:25px; height: 20px">
+                                            </div>
+                                            <span class="voice_time"></span>
+                                        </if>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </volist>
+
+                    </div>
+                </td>
+
+
+            </tr>
+
+
+
+            </tbody>
+        </table>
+    </form>
+</div>
+
+
+</body>
+</html>
+<script>
+    // 检查是否正在播放
+    var isPlaying =false;
+    $('.message1').click(function () {
+        var audio = $(this).children('.bgMusic')[0];
+        // console.log(audio.duration);
+        // console.log(audio);
+        if(isPlaying){
+            audio.pause();
+            isPlaying =false;
+        }else{
+            audio.play();
+            isPlaying = true;
+        }
+
+    });
+</script>
